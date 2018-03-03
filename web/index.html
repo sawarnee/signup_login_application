@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>NEWGEN</title>
+  
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        #a1
+        {
+            font-size: 25px;
+            text-decoration: none;
+        }
+        .div1
+        {
+            border-style: solid;
+            border-radius: 50px;
+            background-color: blanchedalmond;
+            width: 300px;
+        }
+    </style>
+
+</head>
+
+<body>
+<div class="container">
+    <br><br><br><br><br><br>
+	<section id="content">
+            <form action="main.jsp" method="post">
+			<h1>Login Form</h1>
+			<div>
+				<input type="text" placeholder="Email ID" required="" name="username" />
+			</div>
+			<div>
+				<input type="password" placeholder="Password" required="" name="password" />
+			</div>
+			<div>
+				<input type="submit" value="Log in" />
+				<a href="lostpassword.jsp">Lost your password?</a>
+			</div>
+            </form>
+            <font size="5">OR</font>
+            <br><br><br>
+            <center><div class="div1"><a href="registration.jsp" id="a1">CREATE NEW ACCOUNT</a></div></center>
+            <br><br><br>
+	</section>
+</div>  
+</body>
+</html>
